@@ -1,15 +1,16 @@
 package com.gfgcip;
-import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        System.out.println("your entered number "+ x);
-        double d = sc.nextDouble();
-        System.out.println("your entered number "+ d);
-
+	// swap
+        int a = 10;
+        int b = 20;
+        int temp ;
+        temp = a;
+        a = b;
+        b = temp;
+        System.out.println("a = "+a);
+        System.out.println("b = "+b);
     }
 }
-
