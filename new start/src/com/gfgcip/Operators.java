@@ -11,6 +11,7 @@ public class Operators {
         z=x++;
         System.out.println(z+" "+ x);
         z=++x;
+
         System.out.println(z+" "+x  );
     }
 }
