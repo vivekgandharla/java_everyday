@@ -11,7 +11,15 @@ public class Operators {
         z=x++;
         System.out.println(z+" "+ x);
         z=++x;
-
         System.out.println(z+" "+x  );
+        //Assignment Operators
+        x+= y;
+        System.out.println(x);
+        x%=y;
+        System.out.println(x);
+        z=x=y;
+        System.out.println(z); //assosiativity is from right to left
+
+
     }
 }
