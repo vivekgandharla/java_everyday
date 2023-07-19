@@ -8,6 +8,7 @@ public class BitwiseOperator {
         System.out.println(x&y);//AND
         System.out.println(~x);
         //Left shift <<
+        //
 
         System.out.println(x<<2);
         System.out.println(x<<y);
